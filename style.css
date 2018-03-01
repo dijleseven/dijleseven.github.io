@@ -1,0 +1,156 @@
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #222;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #696969;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  color: #888;
+  display: block;
+  margin: 8px 22px 8px 22px;
+  overflow: hidden;
+  width: 97%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+
+nav a {
+  color: ##580054;
+  display: block;
+  line-height: 56px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+
+nav li:hover {
+  background-color: rgb(75,0,130);
+}
+
+nav li:hover a {
+  color: rgb( 255, 255, 255 );
+}
+
+
+
+p,li{
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #C0C0C0
+}
+
+
+h2,h3{
+  text-align: center;
+  color: #fff
+}
+
+.image img{
+  max-width: 4%;
+
+}
+
+img,video{
+  max-width: 50%;
+  margin-left: 2em;
+  width: 97%
+}
+
+
+.banner img {
+  width: 70%;
+  height: 50%;
+  display: block;
+  margin:0 auto;
+}
+
+
+
+.litreview1 {
+  width: 300px;
+  border: 1px solid #000000;
+  margin: 20px 30px;
+  padding: 0 5px;
+  float: left;
+}
+
+.litreview1 > p {
+  font-size: 14px;
+  color: #fff;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.worklog {
+  width: 250px;
+  border: 1px solid #000000;
+  margin: 20px 5px;
+  padding: 0 5px;
+  float: left;
+}
+
+.worklog > p {
+  font-size: 14px;
+  color: #fff;
+  max-width: 250px;
+}
+
+.video {
+  width: 250px;
+  border: 1px solid #000000;
+  margin: 20px 30px;
+  padding: 0 5px;
+  float: left;
+}
+
+.video > p {
+  font-size: 14px;
+  color: #fff;
+  max-width: 250px;
+}
+
+
+
+
+
+.Aboutme {
+  width: 1333px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #c1c1c1;
+  color: #000;
+  padding: 5px 0;
+  margin: 0 -5px;
+}
+
+.image {
+  max-width: 20px;
+  margin: 15px 0 0 0;
+}
+
+.image:hover {
+  opacity: 0.2;
+  max-width: 10px;
+  margin-top: 15px;
+}
